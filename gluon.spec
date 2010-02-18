@@ -44,6 +44,18 @@ simple but powerful API to handle 2D objects, sounds and inputs.
 
 #%description -l pl.UTF-8
 
+%package devel
+Summary:        Header files for gluon
+Summary(pl.UTF-8):      Pliki nagłówkowe dla gluona
+Group:          Development/Libraries
+Requires:       %{name} = %{version}-%{release}
+
+%description devel
+Header files for gluon.
+
+%description devel -l pl.UTF-8
+Pliki nagłówkowe dla gluona.
+
 %prep
 %setup -q -n %{name}-%{snap}
 
