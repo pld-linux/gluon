@@ -33,7 +33,9 @@ BuildRequires:	rpmbuild(macros) >= 1.293
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Gluon is a cross-platform free and open source 2D game engine from KDE. It aims to make life easier for game developers by providing a simple but powerful API to handle 2D objects, sounds and inputs.
+Gluon is a cross-platform free and open source 2D game engine from
+KDE. It aims to make life easier for game developers by providing a
+simple but powerful API to handle 2D objects, sounds and inputs.
 
 #%description -l pl.UTF-8
 
