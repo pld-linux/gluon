@@ -15,7 +15,7 @@ Group:		X11/Libraries
 Source0:	%{name}-%{snap}.tar.gz
 # Source0-md5:	68fe1589e77ed0a134e1d026607dc8c9
 URL:		http://gluon.tuxfamily.org/
-BuildRequires:	OpenAL-devel
+BuildRequires:	OpenAL-devel >= 1.8.466
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtCore-devel >= %{qtver}
 BuildRequires:	QtDBus-devel >= %{qtver}
@@ -28,7 +28,7 @@ BuildRequires:	QtUiTools-devel >= %{qtver}
 BuildRequires:	QtXml-devel >= %{qtver}
 BuildRequires:	automoc4 >= 0.9.84
 BuildRequires:	cmake >= 2.8.0
-BuildRequires:	eigen-devel
+BuildRequires:	eigen-devel >= 2.0.12
 BuildRequires:	glew-devel
 BuildRequires:	kde4-kdelibs-devel >= %{kdever}
 BuildRequires:	libsndfile-devel
