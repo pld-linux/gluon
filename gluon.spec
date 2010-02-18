@@ -70,3 +70,63 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%{_bindir}/gluoncreator
+%dir %{_libdir}/gluon
+%attr(755,root,root) %{_libdir}/gluon/libgluon_asset_sound.so
+%attr(755,root,root) %{_libdir}/gluon/libgluon_asset_texture.so
+%attr(755,root,root) %{_libdir}/gluon/libgluon_component_cameracontroller.so
+%attr(755,root,root) %{_libdir}/gluon/libgluon_component_qtscript.so
+%attr(755,root,root) %{_libdir}/gluon/libgluon_component_soundemitter.so
+%attr(755,root,root) %{_libdir}/gluon/libgluon_component_soundlistener.so
+%attr(755,root,root) %{_libdir}/gluon/libgluon_component_spriterenderer.so
+%attr(755,root,root) %{_libdir}/kde4/gluon_creator_dockplugin_componentsdock.so
+%attr(755,root,root) %{_libdir}/kde4/gluon_creator_dockplugin_messagedock.so
+%attr(755,root,root) %{_libdir}/kde4/gluon_creator_dockplugin_projectdock.so
+%attr(755,root,root) %{_libdir}/kde4/gluon_creator_dockplugin_propertiesdock.so
+%attr(755,root,root) %{_libdir}/kde4/gluon_creator_dockplugin_scenedock.so
+%attr(755,root,root) %{_libdir}/kde4/gluon_creator_dockplugin_viewwidgetdock.so
+%attr(755,root,root) %{_libdir}/libGluonAudio.so.0.60.0
+%attr(755,root,root) %{_libdir}/libGluonCore.so.0.60.0
+%attr(755,root,root) %{_libdir}/libGluonCreator.so.0.60.0
+%attr(755,root,root) %{_libdir}/libGluonEngine.so.0.60.0
+%attr(755,root,root) %{_libdir}/libGluonGraphics.so.0.60.0
+%attr(755,root,root) %{_libdir}/libGluonInput.so.0.60.0
+%{_datadir}/apps/gluoncreator
+%{_datadir}/config.kcfg/gluoncreatorsettings.kcfg
+%{_datadir}/kde4/services/gluon_creator_dockplugin_componentsdock.desktop
+%{_datadir}/kde4/services/gluon_creator_dockplugin_messagedock.desktop
+%{_datadir}/kde4/services/gluon_creator_dockplugin_projectdock.desktop
+%{_datadir}/kde4/services/gluon_creator_dockplugin_propertiesdock.desktop
+%{_datadir}/kde4/services/gluon_creator_dockplugin_scenedock.desktop
+%{_datadir}/kde4/services/gluon_creator_dockplugin_viewwidgetdock.desktop
+%{_datadir}/kde4/servicetypes/gluoncreator_plugin.desktop
+
+%files devel
+%defattr(644,root,root,755)
+%attr(755,root,root) %{_libdir}/libGluonAudio.so
+%attr(755,root,root) %{_libdir}/libGluonCore.so
+%attr(755,root,root) %{_libdir}/libGluonCreator.so
+%attr(755,root,root) %{_libdir}/libGluonEngine.so
+%attr(755,root,root) %{_libdir}/libGluonGraphics.so
+%attr(755,root,root) %{_libdir}/libGluonInput.so
+%{_datadir}/cmake/Modules/FindGluon.cmake
+%{_datadir}/cmake/Modules/FindGluonAudio.cmake
+%{_datadir}/cmake/Modules/FindGluonCore.cmake
+%{_datadir}/cmake/Modules/FindGluonCreator.cmake
+%{_datadir}/cmake/Modules/FindGluonEngine.cmake
+%{_datadir}/cmake/Modules/FindGluonGraphics.cmake
+%{_datadir}/cmake/Modules/FindGluonInput.cmake
+%dir %{_datadir}/gluon
+%dir %{_datadir}/gluon/cmake
+%{_datadir}/gluon/cmake/FindEigen2.cmake
+%{_datadir}/gluon/cmake/FindGLEW.cmake
+%{_datadir}/gluon/cmake/FindGluon.cmake
+%{_datadir}/gluon/cmake/FindGluonAudio.cmake
+%{_datadir}/gluon/cmake/FindGluonCore.cmake
+%{_datadir}/gluon/cmake/FindGluonCreator.cmake
+%{_datadir}/gluon/cmake/FindGluonEngine.cmake
+%{_datadir}/gluon/cmake/FindGluonGraphics.cmake
+%{_datadir}/gluon/cmake/FindGluonInput.cmake
+%{_datadir}/gluon/cmake/FindOggVorbis.cmake
+%{_datadir}/gluon/cmake/FindSndFile.cmake
+%{_includedir}/gluon
