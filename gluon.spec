@@ -1,6 +1,7 @@
 
 %define		qtver	4.6.2
-%define		snap	201002181913 # YYYYMMddHHmm
+# YYYYMMddHHmm
+%define		snap	201002181913
 %define		kdever	4.4.0
 
 Summary:	Gluon
